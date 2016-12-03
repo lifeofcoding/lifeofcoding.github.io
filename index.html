@@ -59,6 +59,9 @@
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
+                    <li class="page-scroll">
+                        <a href="#payments">Make a Payment</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -229,6 +232,57 @@
                         <div class="row">
                             <div class="form-group col-xs-12">
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payments Section -->
+    <section id="payments">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Make a Payment</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="row">
+                        <div class="form-group col-xs-12 text-center">
+                            Need to make a payment for freelance work I have completed? Pay below with PayPal!
+                        </div>
+                    </div>
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="CZZLUCA3DGNGG">
+
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Your Email</label>
+                                <input type="hidden" name="on0" value="Your Email">
+                                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name." name="os0" maxlength="200" placeholder="Your Email">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>If known, Freelance Work Reference ID (Optional)</label>
+                                <input type="hidden" name="on1" value="Freelance Work Reference ID">
+                                <input type="text" class="form-control" id="reference" name="os1" maxlength="200" placeholder="If known, Freelance Work Reference ID (Optional)">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="form-group col-xs-12 text-center">
+                                <br>
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </div>
                         </div>
                     </form>
