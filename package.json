@@ -1,12 +1,15 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "lifeofcoding",
+  "title": "LifeOfCoding",
   "version": "1.1.0",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "http://lifeofcoding.online",
+  "author": "Jimmy Rousseau",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  },
+  "scripts": {
+    "start": "node server.js"
   },
   "devDependencies": {
     "bootstrap": "^3.3.6",
@@ -23,5 +26,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemailer": "^6.1.1"
   }
 }
