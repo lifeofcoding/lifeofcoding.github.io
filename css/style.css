@@ -140,12 +140,12 @@ body {
   width: 100%;
 
   margin: 0;
-  background-image: url(/img/animatedbg2.gif);
 }
 
 .jumbotron .container {
   padding: initial;
   color: white;
+  z-index: 1;
 }
 
 .jumbotron .container h1 {
