@@ -13,7 +13,7 @@ body {
 @media(min-width:768px) {
   html, body {
     /* for jumbotron */
-    
+
     height: 100%;
   }
 }
@@ -139,7 +139,7 @@ body {
   width: 100%;
 
   margin: 0;
-  background-image: url(http://dan.motiongear.org/images/officebgd.png);
+  background-image: url(/img/background.jpeg);
 }
 
 .jumbotron .container {
@@ -169,10 +169,10 @@ body {
 .vertical-centre {
   min-height: 100%;
   /* Fallback for browsers do NOT support vh unit */
-  
+
   min-height: 100vh;
   /* These two lines are counted as one :-)       */
-  
+
   display: flex;
   align-items: center;
 }
