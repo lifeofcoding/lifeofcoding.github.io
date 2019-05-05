@@ -140,7 +140,7 @@ body {
   width: 100%;
 
   margin: 0;
-  background-image: url(/img/background.jpeg);
+  background-image: url(/img/animatedbg2.gif);
 }
 
 .jumbotron .container {
@@ -188,7 +188,7 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(/img/animatedbg2.gif);
+  background-image: url(/img/background.jpeg);
 }
 
 section#portfolio .container h1,
