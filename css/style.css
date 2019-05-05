@@ -83,6 +83,7 @@ body {
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+  background: #00000080;
 }
 
 .navbar-nav li a {
