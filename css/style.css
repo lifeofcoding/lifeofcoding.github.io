@@ -83,7 +83,7 @@ body {
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
-  background: #00000080;
+  background: #000000c9;
 }
 
 .navbar-nav li a {
@@ -188,7 +188,7 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(http://dan.motiongear.org/images/foliobgd.png);
+  background-image: url(/img/animatedbg.gif);
 }
 
 section#portfolio .container h1,
