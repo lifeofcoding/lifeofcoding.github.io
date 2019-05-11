@@ -189,6 +189,7 @@ section .container {
 
 section#apps {
   background-image: url(/img/portfolio/messenger.png);
+  background-sizeL auto;
 }
 
 section#apps .container h1,
@@ -208,6 +209,10 @@ section#apps .container .thumbnail img {
   margin-bottom: 10px;
   width: auto;
   height: auto;
+}
+
+.overlay-apps {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 section#portfolio {
