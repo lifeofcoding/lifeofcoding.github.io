@@ -225,6 +225,10 @@ section#portfolio .container h3 {
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+section#portfolio img {
+  height: auto;
+}
+
 section#contact .container {
   padding-bottom: 30px;
 }
