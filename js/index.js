@@ -1,9 +1,6 @@
 $(document).ready(function() {
 
-  setTimeout(function() {
-    $('#particles-background').addClass('change');
-  }, 3000);
-  // Add smooth scrolling to all links in navbar + footer link
+// Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#home']").on('click', function(event) {
 
     // Prevent default anchor click behavior
